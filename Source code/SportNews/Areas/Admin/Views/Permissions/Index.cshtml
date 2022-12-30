@@ -1,0 +1,46 @@
+﻿@model IEnumerable<SportNews.Models.Entities.Permission>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<h2 style="margin-left:20px">Quản lý Quyền</h2>
+
+<span class="badge bg-primary" style="font-size:20px ; margin-left:20px"><a href="/Admin/Articles/Create">Thêm mới Quyền</a></span>
+
+<div class="card">
+    <div class="card-body">
+        <table class="table table-bordered">
+            <tr>
+                <th class="text-center">
+                    Tên quyền
+                </th>
+                <th class="text-center">
+                    Mô tả
+                </th>
+                <th class="text-center">
+                    Thao tác
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="text-center">
+                        @Html.DisplayFor(modelItem => item.name)
+                    </td>
+                    <td class="text-center">
+                        @Html.DisplayFor(modelItem => item.description)
+                    </td>
+                    <td class="text-center">
+                        <span class="badge bg-warning"><a href="/Admin/Permissions/Edit/@item.id">Sửa</a></span> |
+                        <span class="badge bg-success"><a href="/Admin/Permissions/Details/@item.id">Chi tiết</a></span> |
+                        <span class="badge bg-danger"><a href="/Admin/Permissions/Delete/@item.id">Xóa</a></span>
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>

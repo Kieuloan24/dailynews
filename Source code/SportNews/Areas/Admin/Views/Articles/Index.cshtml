@@ -1,0 +1,74 @@
+﻿@model IEnumerable<SportNews.Models.Entities.Article>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<h2 style="margin-left:20px">Quản lý bài viết</h2>
+
+<span class="badge bg-primary" style="font-size:20px ; margin-left:20px"><a href="/Admin/Articles/Create">Thêm mới bài viết</a></span>
+<div class="card">
+    <div class="card-header">
+
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered">
+            <tr>
+                <th class="text-center">
+                    Tiêu đề
+                </th>
+                <th class="text-center">
+                    Chủ đề
+                </th>
+                <th class="text-center">
+                    Người tạo
+                </th>
+                <th class="text-center">
+                    Ảnh
+                </th>
+                <th class="text-center">
+                    Ngày tạo
+                </th>
+                <th class="text-center">
+                    Tags
+                </th>
+                <th class="text-center">
+                    Thao tác
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.title)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Category.name)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Account.name)
+                </td>
+                <td class="text-center">
+                    <div>
+                        <img src="@Url.Content("~/Content/img/"+item.images)" width="110" height="110">
+                    </div>
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.createdDate)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.tags)
+                </td>
+                <td class="text-center">
+                    <span class="badge bg-warning"><a href="/Admin/Articles/Edit/@item.id">Sửa</a></span> |
+                    <span class="badge bg-success"><a target="_blank" href="/Home/Detail/@item.id">Đến bài viết</a></span> |
+                    <span class="badge bg-danger"><a href="/Admin/Articles/Delete/@item.id">Xóa</a></span>
+                </td>
+            </tr>
+            }
+
+        </table>
+    </div>
+</div>

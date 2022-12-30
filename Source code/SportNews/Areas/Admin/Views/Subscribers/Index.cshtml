@@ -1,0 +1,57 @@
+﻿@model IEnumerable<SportNews.Models.Entities.Subscriber>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h2>Danh sách khách hàng đăng ký trên website</h2>
+        <table class="table">
+            <tr>
+                <th>
+                    Tên khách hàng
+                </th>
+                <th>
+                    Tên đăng nhập
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    SĐT
+                </th>
+                <th>
+                   Ngày đăng kí
+                </th>
+                <th> Thao tác</th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.username)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.phone)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.createddate)
+                    </td>
+                    <td>
+                        <span class="badge bg-success"><a href="/Admin/Subscribers/Details/@item.id">Chi tiết</a></span> |
+                        <span class="badge bg-danger"><a href="/Admin/Subscribers/Delete/@item.id">Xóa</a></span>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

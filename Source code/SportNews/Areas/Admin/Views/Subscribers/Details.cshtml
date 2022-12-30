@@ -1,0 +1,59 @@
+﻿@model SportNews.Models.Entities.Subscriber
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<div class="content-wrapper">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <h2>Chi tiết khách hàng</h2>
+                <div>
+                    <dl class="dl-horizontal">
+                        <dt>
+                            Tên khách hàng
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.name)
+                        </dd>
+
+                        <dt>
+                            Tên đăng nhập
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.username)
+                        </dd>
+                        <dt>
+                            Email
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.email)
+                        </dd>
+
+                        <dt>
+                            Số điện thoại
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.phone)
+                        </dd>
+
+                        <dt>
+                            Ngày đăng ký
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.createddate)
+                        </dd>
+
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

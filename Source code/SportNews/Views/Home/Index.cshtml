@@ -1,0 +1,169 @@
+﻿@using SportNews.Models.Entities
+@using SportNews.Models.Function
+@{ 
+    var article = new ArticleFunction();
+    var articleSlide = article.GetArticleSlide();
+    var newsVn = article.GetArticleVietNam();
+    var newEn = article.GetArticleGlobal();
+    var newsTranfer = article.GetArticlesTranfer();
+    var newsEsports = article.GetArticlesEsports();
+}
+
+<main>
+    <!-- Trending Area Start -->
+    <div class="trending-area fix">
+        <div class="container">
+            <div class="trending-main">
+                <!-- Trending Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="trending-tittle">
+                            <strong>Tin hot</strong>
+                            <!-- <p>Rem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+                            <div class="trending-animated">
+                                <ul id="js-news" class="js-hidden">
+                                    @foreach (var item in newEn)
+                                    {
+                                        <li class="news-item">@item.title</li>
+                                    }
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <!-- Trending Top -->
+                        <div class="trending-top mb-30">
+                            <div class="trend-top-img">
+                                <img src="~/Content/img/@articleSlide.images" alt="">
+                                <div class="trend-top-cap">
+                                    <span>@articleSlide.Category.name</span>
+                                    <h2><a href="/home/detail/@articleSlide.id">@articleSlide.title</a></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Trending Bottom -->
+                        <div class="trending-bottom">
+                            <div class="row">
+                                @foreach (var item in newsVn)
+                                {
+                                    <div class="col-lg-4">
+                                        <div class="single-bottom mb-35">
+                                            <div class="trend-bottom-img mb-30">
+                                                <img style="width:237px; height:150px" src="~/Content/img/@item.images" alt="">
+                                            </div>
+                                            <div class="trend-bottom-cap">
+                                                <span class="color1">@item.Category.name</span>
+                                                <h4><a href="/home/detail/@item.id">@item.title</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Riht content -->
+                    <div class="col-lg-4">
+                        @foreach (var item in newEn)
+                        {
+                            <div class="trand-right-single d-flex">
+                                <div class="trand-right-img">
+                                    <img style="width: 120px; height:105px" src="~/Content/img/@item.images" alt="">
+                                </div>
+                                <div class="trand-right-cap">
+                                    <span class="color1">@item.Category.name</span>
+                                    <h4><a href="/home/detail/@item.id">@item.title</a></h4>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Trending Area End -->
+    <!--   Weekly-News start -->
+    <div class="weekly-news-area pt-50">
+        <div class="container">
+            <div class="weekly-wrapper">
+                <!-- section Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle mb-30">
+                            <h3>@newsEsports.FirstOrDefault().Category.name</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="weekly-news-active dot-style d-flex dot-style">
+                            @foreach (var item in newsEsports)
+                            {
+                                <div class="weekly-single">
+                                    <div class="weekly-img">
+                                        <img style="width:420px; height:280px" src="~/Content/img/@item.images" alt="">
+                                    </div>
+                                    <div class="weekly-caption">
+                                        <span class="color1">@item.Category.name</span>
+                                        <h4><a href="/home/detail/@item.id">@item.title</a></h4>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--   Weekly2-News start -->
+    <div class="weekly2-news-area  weekly2-pading gray-bg">
+        <div class="container">
+            <div class="weekly2-wrapper">
+                <!-- section Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle mb-30">
+                            <h3>@newsTranfer.First().Category.name</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="weekly2-news-active dot-style d-flex dot-style">
+                            @foreach (var item in newsTranfer)
+                            {
+                                <div class="weekly2-single">
+                                    <div class="weekly2-img">
+                                        <img style="width:360px; height:265px" src="~/Content/img/@item.images" alt="">
+                                    </div>
+                                    <div class="weekly2-caption">
+                                        <span class="color1">@item.Category.name</span>
+                                        <h4><a href="/home/detail/@item.id">@item.title</a></h4>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Weekly-News -->
+    <!-- Start Youtube -->
+    <div class="youtube-area video-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="video-items-active">
+                        <div class="video-items text-center">
+                            <iframe src="https://www.youtube.com/embed/CicQIuG8hBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Start youtube -->
+</main>

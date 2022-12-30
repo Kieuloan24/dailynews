@@ -1,0 +1,68 @@
+﻿@model SportNews.Models.Entities.Article
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<h2 style=" margin-left:20px">Chi tiết</h2>
+
+<div class="card">
+    <div class="card-header">
+        <h4>Bài viết : @Html.DisplayFor(model => model.title)</h4>
+    </div>
+    <div class="card-body">
+        <dl class="dl-horizontal">
+            <dt>
+                Tác giả:
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Account.name)
+            </dd>
+
+            <dt>
+                Chủ đề:
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Category.name)
+            </dd>
+
+            <dt>
+                Tiêu đề:
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.title)
+            </dd>
+
+            <dt>
+                Nội dung:
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.contents)
+            </dd>
+
+            <dt>
+                Ngày tạo:
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.createdDate)
+            </dd>
+
+            <dt>
+                Nguồn dẫn:
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.cre)
+            </dd>
+
+        </dl>
+    </div>
+</div>
+<a href="/Admin/Articles/Edit/@Model.id" class="btn btn-warning" style="margin-left:20px">Chỉnh sửa</a>
+<a href="/Admin/Articles/Index" class="btn btn-primary" style="margin-left:20px">Quay lại</a>

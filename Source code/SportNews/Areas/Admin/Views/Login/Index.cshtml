@@ -1,0 +1,13 @@
+﻿@model SportNews.Models.Entities.Account
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutLogin.cshtml";
+}
+
+@using (Html.BeginForm("Index", "Login", FormMethod.Post))
+{ 
+    <p class="text-aligin:center;" style="font-size:20px; font-weight:800">Đăng nhập hệ thống quản lý</p>
+    @Html.EditorFor(model => model.username, new { htmlAttributes = new { placeholder = "Tài khoản" } })
+    @Html.EditorFor(model => model.password, new { htmlAttributes = new { placeholder = "Mật khẩu", type = "password" } })
+    <button>Đăng nhập</button>
+}

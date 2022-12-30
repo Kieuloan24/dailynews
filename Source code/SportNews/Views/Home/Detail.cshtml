@@ -1,0 +1,183 @@
+﻿@using SportNews.Models.Entities;
+@using SportNews.Models.Function;
+@model Article
+@{
+    var news = new ArticleFunction();
+    var listRef = news.GetArticleByCategoriesId(Model.Category.id);
+
+    var subscriber = "";
+    int subscriberId = 0;
+    if (!string.IsNullOrEmpty((string)Session["SubscriberID"]))
+    {
+        subscriber = (string)Session["SubscriberID"];
+        subscriberId = Int32.Parse(subscriber);
+    }
+
+    List<Comment> listComments = new List<Comment>();
+    if (ViewBag.ListComments != null)
+    {
+        listComments = ViewBag.ListComments;
+    }
+}
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<main>
+    <!-- About US Start -->
+    <div class="about-area">
+        <div class="container">
+            <!-- Hot Aimated News Tittle-->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="trending-tittle">
+                        <strong>Tin hot</strong>
+                        <div class="trending-animated">
+                            <ul id="js-news" class="js-hidden">
+                                @if (listRef != null && listRef.Any())
+                                {
+                                    foreach (var item in listRef)
+                                    {
+                                        <li class="news-item">@item.title</li>
+                                    }
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Trending Tittle -->
+                    <div class="about-right mb-90">
+                        <div class="about-img">
+                            <img src="~/Content/img/@Model.images" alt="">
+                        </div>
+                        <div class="section-tittle mb-30 pt-30">
+                            <h3>@Model.title</h3>
+                        </div>
+                        <div class="about-prea">
+                            @Html.Raw(Model.contents)
+                        </div>
+                        <div class="social-share pt-30">
+                            <div class="section-tittle">
+                                <h3 class="mr-20">Chia sẻ:</h3>
+                                <ul>
+                                    <li><a href="#"><img src="~/Content/assets/img/news/icon-ins.png" alt=""></a></li>
+                                    <li><a href="#"><img src="~/Content/assets/img/news/icon-fb.png" alt=""></a></li>
+                                    <li><a href="#"><img src="~/Content/assets/img/news/icon-tw.png" alt=""></a></li>
+                                    <li><a href="#"><img src="~/Content/assets/img/news/icon-yo.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        @if (!string.IsNullOrEmpty(@Model.tags))
+                        {
+                            <div class="social-share pt-30">
+                                <div class="section-tittle">
+                                    <h3 class="mr-20">Tags:</h3>
+                                    <ul>
+                                        <li style="background: bisque; padding: 0 5px"># @Model.tags</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <!-- From -->
+                    @if (!string.IsNullOrEmpty(subscriber))
+                    {
+                        <div class="row">
+                            <div class="col-lg-8">
+                                @using (Html.BeginForm("SendComment", "Comment", new { @class = "form-contact contact_form mb-80" }))
+                                {
+                                    <input type="hidden" name="news_id" value="@Model.id" />
+                                    <input type="hidden" name="subscriber_id" value="@subscriberId" />
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control w-100 error" name="contents" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nội dung bình luận'" placeholder="Nội dung bình luận"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mt-3">
+                                        <button type="submit" class="button button-contactForm boxed-btn">Bình luận</button>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+                    @if (listComments != null && listComments.Any())
+                    {
+                        foreach (var item in listComments)
+                        {
+                            var commentFunction = new CommentFunction();
+                            string subcriberName = commentFunction.GetSubcriberComment(item.subscriber_id);
+                            <div class="section-top-border">
+                                <h3 style="font-size:20px">@subcriberName</h3>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <blockquote class="generic-blockquote">
+                                            “@item.contents” - @item.createddate
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+                <div class="col-lg-4">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle mb-40">
+                        <h3>Follow Us</h3>
+                    </div>
+                    <!-- Flow Socail -->
+                    <div class="single-follow mb-45">
+                        <div class="single-box">
+                            <div class="follow-us d-flex align-items-center">
+                                <div class="follow-social">
+                                    <a href="#"><img src="~/Content/assets/img/news/icon-fb.png" alt=""></a>
+                                </div>
+                                <div class="follow-count">
+                                    <span>8,045</span>
+                                    <p>Fans</p>
+                                </div>
+                            </div>
+                            <div class="follow-us d-flex align-items-center">
+                                <div class="follow-social">
+                                    <a href="#"><img src="~/Content/assets/img/news/icon-tw.png" alt=""></a>
+                                </div>
+                                <div class="follow-count">
+                                    <span>8,045</span>
+                                    <p>Fans</p>
+                                </div>
+                            </div>
+                            <div class="follow-us d-flex align-items-center">
+                                <div class="follow-social">
+                                    <a href="#"><img src="~/Content/assets/img/news/icon-ins.png" alt=""></a>
+                                </div>
+                                <div class="follow-count">
+                                    <span>8,045</span>
+                                    <p>Fans</p>
+                                </div>
+                            </div>
+                            <div class="follow-us d-flex align-items-center">
+                                <div class="follow-social">
+                                    <a href="#"><img src="~/Content/assets/img/news/icon-yo.png" alt=""></a>
+                                </div>
+                                <div class="follow-count">
+                                    <span>8,045</span>
+                                    <p>Fans</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- New Poster -->
+                    <div class="news-poster d-none d-lg-block">
+                        <img src="~/Content/assets/img/news/news_card.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About US End -->
+</main>
+

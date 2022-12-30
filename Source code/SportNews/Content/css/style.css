@@ -1,0 +1,19 @@
+﻿@media (min-width: 1025px) {
+    .header {
+        min-height: 70px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .ekit_menu_responsive_tablet .elementskit-submenu-indicator {
+        border: 1px solid transparent !important;
+    }
+}
+
+.news-hot {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}

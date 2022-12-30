@@ -1,0 +1,48 @@
+﻿@model SportNews.Models.Entities.Comment
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<div class="content-wrapper" style="margin-top: 55px;">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <h2>Xóa bình luận</h2>
+
+                <h3>Có có chắc chắn muốn xóa bình luận này?</h3>
+                <div>
+                    <dl class="dl-horizontal">
+                        <dt>
+                            Nội dung
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.contents)
+                        </dd>
+
+                        <dt>
+                            Ngày tạo
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.createddate)
+                        </dd>
+
+                    </dl>
+
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-actions no-color">
+                            <input type="submit" value="Xóa" class="btn btn-danger" /> |
+                            <a href="/admin/comments" class="btn btn-warning">Quay lại trang danh sách</a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+﻿@model SportNews.Models.Entities.Contact
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<div class="card" style="padding: 20px">
+    <h2>Chi tiết liên hệ</h2>
+
+    <div class="card-body">
+        <dl class="dl-horizontal">
+            <dt>
+                Họ tên khách hàng
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.name)
+            </dd>
+
+            <dt>
+                Email
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.email)
+            </dd>
+
+            <dt>
+                Số điện thoại
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.phone)
+            </dd>
+
+            <dt>
+                Nội dung
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.contents)
+            </dd>
+
+            <dt>
+                Ngày tạo
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.createddate)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Quay lại trang danh sách", "Index")
+    </p>
+</div>

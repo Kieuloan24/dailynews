@@ -1,0 +1,29 @@
+﻿@model SportNews.Models.Entities.Subscriber
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<div class="content-wrapper">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <h2>Xóa khách hàng</h2>
+
+                <h3>Bạn có chắc chắn muốn xóa khách hàng này?</h3>
+                <div>
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-actions no-color">
+                            <input type="submit" value="Xóa khách hàng" class="btn btn-danger" /> |
+                            <a href="/admin/Subscribers" class="btn btn-primary">Quay lại trang danh sách</a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,415 @@
+D:\SportNews\SportNews\bin\SportNews.dll.config
+D:\SportNews\SportNews\bin\SportNews.dll
+D:\SportNews\SportNews\bin\SportNews.pdb
+D:\SportNews\SportNews\bin\roslyn\csc.exe
+D:\SportNews\SportNews\bin\roslyn\csc.exe.config
+D:\SportNews\SportNews\bin\roslyn\csc.rsp
+D:\SportNews\SportNews\bin\roslyn\csi.exe
+D:\SportNews\SportNews\bin\roslyn\csi.exe.config
+D:\SportNews\SportNews\bin\roslyn\csi.rsp
+D:\SportNews\SportNews\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SportNews\SportNews\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SportNews\SportNews\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\SportNews\SportNews\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\SportNews\SportNews\bin\roslyn\Microsoft.Managed.Core.targets
+D:\SportNews\SportNews\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SportNews\SportNews\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\SportNews\SportNews\bin\roslyn\System.AppContext.dll
+D:\SportNews\SportNews\bin\roslyn\System.Collections.Immutable.dll
+D:\SportNews\SportNews\bin\roslyn\System.Console.dll
+D:\SportNews\SportNews\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\SportNews\SportNews\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\SportNews\SportNews\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\SportNews\SportNews\bin\roslyn\System.Globalization.Calendars.dll
+D:\SportNews\SportNews\bin\roslyn\System.IO.Compression.dll
+D:\SportNews\SportNews\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\SportNews\SportNews\bin\roslyn\System.IO.FileSystem.dll
+D:\SportNews\SportNews\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\SportNews\SportNews\bin\roslyn\System.Net.Http.dll
+D:\SportNews\SportNews\bin\roslyn\System.Net.Sockets.dll
+D:\SportNews\SportNews\bin\roslyn\System.Reflection.Metadata.dll
+D:\SportNews\SportNews\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\SportNews\SportNews\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\SportNews\SportNews\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\SportNews\SportNews\bin\roslyn\System.ValueTuple.dll
+D:\SportNews\SportNews\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\SportNews\SportNews\bin\roslyn\System.Xml.XmlDocument.dll
+D:\SportNews\SportNews\bin\roslyn\System.Xml.XPath.dll
+D:\SportNews\SportNews\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\SportNews\SportNews\bin\roslyn\vbc.exe
+D:\SportNews\SportNews\bin\roslyn\vbc.exe.config
+D:\SportNews\SportNews\bin\roslyn\vbc.rsp
+D:\SportNews\SportNews\bin\roslyn\VBCSCompiler.exe
+D:\SportNews\SportNews\bin\roslyn\VBCSCompiler.exe.config
+D:\SportNews\SportNews\bin\Antlr3.Runtime.dll
+D:\SportNews\SportNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SportNews\SportNews\bin\Microsoft.Web.Infrastructure.dll
+D:\SportNews\SportNews\bin\Newtonsoft.Json.dll
+D:\SportNews\SportNews\bin\System.Web.Helpers.dll
+D:\SportNews\SportNews\bin\System.Web.Mvc.dll
+D:\SportNews\SportNews\bin\System.Web.Optimization.dll
+D:\SportNews\SportNews\bin\System.Web.Razor.dll
+D:\SportNews\SportNews\bin\System.Web.WebPages.Deployment.dll
+D:\SportNews\SportNews\bin\System.Web.WebPages.dll
+D:\SportNews\SportNews\bin\System.Web.WebPages.Razor.dll
+D:\SportNews\SportNews\bin\WebGrease.dll
+D:\SportNews\SportNews\bin\System.Web.Helpers.xml
+D:\SportNews\SportNews\bin\System.Web.Mvc.xml
+D:\SportNews\SportNews\bin\System.Web.Optimization.xml
+D:\SportNews\SportNews\bin\System.Web.Razor.xml
+D:\SportNews\SportNews\bin\System.Web.WebPages.xml
+D:\SportNews\SportNews\bin\System.Web.WebPages.Deployment.xml
+D:\SportNews\SportNews\bin\System.Web.WebPages.Razor.xml
+D:\SportNews\SportNews\bin\Newtonsoft.Json.xml
+D:\SportNews\SportNews\bin\Antlr3.Runtime.pdb
+D:\SportNews\SportNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SportNews\SportNews\obj\Debug\SportNews.csprojAssemblyReference.cache
+D:\SportNews\SportNews\obj\Debug\SportNews.csproj.CoreCompileInputs.cache
+D:\SportNews\SportNews\obj\Debug\SportNews.csproj.CopyComplete
+D:\SportNews\SportNews\obj\Debug\SportNews.dll
+D:\SportNews\SportNews\obj\Debug\SportNews.pdb
+D:\SportNews\SportNews\bin\EntityFramework.dll
+D:\SportNews\SportNews\bin\EntityFramework.SqlServer.dll
+D:\SportNews\SportNews\bin\EntityFramework.xml
+D:\SportNews\SportNews\bin\EntityFramework.SqlServer.xml
+D:\DA tintuc\SportNews\SportNews\bin\SportNews.dll.config
+D:\DA tintuc\SportNews\SportNews\bin\SportNews.dll
+D:\DA tintuc\SportNews\SportNews\bin\SportNews.pdb
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\csc.exe
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\csc.exe.config
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\csc.rsp
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\csi.exe
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\csi.exe.config
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\csi.rsp
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.AppContext.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Collections.Immutable.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Console.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Globalization.Calendars.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.IO.Compression.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.IO.FileSystem.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Net.Http.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Net.Sockets.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Reflection.Metadata.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.ValueTuple.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Xml.XPath.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\vbc.exe
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\vbc.exe.config
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\vbc.rsp
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\VBCSCompiler.exe
+D:\DA tintuc\SportNews\SportNews\bin\roslyn\VBCSCompiler.exe.config
+D:\DA tintuc\SportNews\SportNews\bin\Antlr3.Runtime.dll
+D:\DA tintuc\SportNews\SportNews\bin\EntityFramework.dll
+D:\DA tintuc\SportNews\SportNews\bin\EntityFramework.SqlServer.dll
+D:\DA tintuc\SportNews\SportNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DA tintuc\SportNews\SportNews\bin\Microsoft.Web.Infrastructure.dll
+D:\DA tintuc\SportNews\SportNews\bin\Newtonsoft.Json.dll
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.Helpers.dll
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.Mvc.dll
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.Optimization.dll
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.Razor.dll
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.Deployment.dll
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.dll
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.Razor.dll
+D:\DA tintuc\SportNews\SportNews\bin\WebGrease.dll
+D:\DA tintuc\SportNews\SportNews\bin\EntityFramework.xml
+D:\DA tintuc\SportNews\SportNews\bin\EntityFramework.SqlServer.xml
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.Helpers.xml
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.Mvc.xml
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.Optimization.xml
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.Razor.xml
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.xml
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.Deployment.xml
+D:\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.Razor.xml
+D:\DA tintuc\SportNews\SportNews\bin\Newtonsoft.Json.xml
+D:\DA tintuc\SportNews\SportNews\bin\Antlr3.Runtime.pdb
+D:\DA tintuc\SportNews\SportNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.csprojAssemblyReference.cache
+D:\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.csproj.CoreCompileInputs.cache
+D:\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.csproj.CopyComplete
+D:\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.dll
+D:\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.pdb
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\SportNews.dll.config
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\SportNews.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\SportNews.pdb
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\csc.exe
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\csc.exe.config
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\csc.rsp
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\csi.exe
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\csi.exe.config
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\csi.rsp
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.AppContext.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Console.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.IO.Compression.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Net.Http.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Net.Sockets.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.ValueTuple.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Xml.XPath.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\vbc.exe
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\vbc.exe.config
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\vbc.rsp
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\VBCSCompiler.exe
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Antlr3.Runtime.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\EntityFramework.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\EntityFramework.SqlServer.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Newtonsoft.Json.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Helpers.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Mvc.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Optimization.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Razor.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.Deployment.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.Razor.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\WebGrease.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\EntityFramework.xml
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\EntityFramework.SqlServer.xml
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Helpers.xml
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Mvc.xml
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Optimization.xml
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Razor.xml
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.xml
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.Deployment.xml
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.Razor.xml
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Newtonsoft.Json.xml
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Antlr3.Runtime.pdb
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.csprojAssemblyReference.cache
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.csproj.CoreCompileInputs.cache
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.csproj.CopyComplete
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.dll
+C:\Users\h\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.pdb
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\SportNews.dll.config
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\SportNews.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\SportNews.pdb
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\csc.exe
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\csc.exe.config
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\csc.rsp
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\csi.exe
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\csi.exe.config
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\csi.rsp
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.AppContext.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Console.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.IO.Compression.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Net.Http.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Net.Sockets.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.ValueTuple.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Xml.XPath.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\vbc.exe
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\vbc.exe.config
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\vbc.rsp
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\VBCSCompiler.exe
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Antlr3.Runtime.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\EntityFramework.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\EntityFramework.SqlServer.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Newtonsoft.Json.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Helpers.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Mvc.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Optimization.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Razor.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.Deployment.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.Razor.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\WebGrease.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\EntityFramework.xml
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\EntityFramework.SqlServer.xml
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Helpers.xml
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Mvc.xml
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Optimization.xml
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.Razor.xml
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.xml
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.Deployment.xml
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\System.Web.WebPages.Razor.xml
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Newtonsoft.Json.xml
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Antlr3.Runtime.pdb
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.csprojAssemblyReference.cache
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.csproj.CoreCompileInputs.cache
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.csproj.CopyComplete
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.dll
+C:\Users\QN-DEV\Desktop\DA tintuc\DA tintuc\SportNews\SportNews\obj\Debug\SportNews.pdb
+E:\Đồ án\SportNews\SportNews\bin\SportNews.dll.config
+E:\Đồ án\SportNews\SportNews\bin\SportNews.dll
+E:\Đồ án\SportNews\SportNews\bin\SportNews.pdb
+E:\Đồ án\SportNews\SportNews\bin\roslyn\csc.exe
+E:\Đồ án\SportNews\SportNews\bin\roslyn\csc.exe.config
+E:\Đồ án\SportNews\SportNews\bin\roslyn\csc.rsp
+E:\Đồ án\SportNews\SportNews\bin\roslyn\csi.exe
+E:\Đồ án\SportNews\SportNews\bin\roslyn\csi.exe.config
+E:\Đồ án\SportNews\SportNews\bin\roslyn\csi.rsp
+E:\Đồ án\SportNews\SportNews\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Đồ án\SportNews\SportNews\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Đồ án\SportNews\SportNews\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Đồ án\SportNews\SportNews\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.AppContext.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Collections.Immutable.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Console.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Globalization.Calendars.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.IO.Compression.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.IO.FileSystem.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Net.Http.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Net.Sockets.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Reflection.Metadata.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.ValueTuple.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Xml.XPath.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Đồ án\SportNews\SportNews\bin\roslyn\vbc.exe
+E:\Đồ án\SportNews\SportNews\bin\roslyn\vbc.exe.config
+E:\Đồ án\SportNews\SportNews\bin\roslyn\vbc.rsp
+E:\Đồ án\SportNews\SportNews\bin\roslyn\VBCSCompiler.exe
+E:\Đồ án\SportNews\SportNews\bin\roslyn\VBCSCompiler.exe.config
+E:\Đồ án\SportNews\SportNews\bin\Antlr3.Runtime.dll
+E:\Đồ án\SportNews\SportNews\bin\EntityFramework.dll
+E:\Đồ án\SportNews\SportNews\bin\EntityFramework.SqlServer.dll
+E:\Đồ án\SportNews\SportNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Đồ án\SportNews\SportNews\bin\Microsoft.Web.Infrastructure.dll
+E:\Đồ án\SportNews\SportNews\bin\Newtonsoft.Json.dll
+E:\Đồ án\SportNews\SportNews\bin\System.Web.Helpers.dll
+E:\Đồ án\SportNews\SportNews\bin\System.Web.Mvc.dll
+E:\Đồ án\SportNews\SportNews\bin\System.Web.Optimization.dll
+E:\Đồ án\SportNews\SportNews\bin\System.Web.Razor.dll
+E:\Đồ án\SportNews\SportNews\bin\System.Web.WebPages.Deployment.dll
+E:\Đồ án\SportNews\SportNews\bin\System.Web.WebPages.dll
+E:\Đồ án\SportNews\SportNews\bin\System.Web.WebPages.Razor.dll
+E:\Đồ án\SportNews\SportNews\bin\WebGrease.dll
+E:\Đồ án\SportNews\SportNews\bin\EntityFramework.xml
+E:\Đồ án\SportNews\SportNews\bin\EntityFramework.SqlServer.xml
+E:\Đồ án\SportNews\SportNews\bin\System.Web.Helpers.xml
+E:\Đồ án\SportNews\SportNews\bin\System.Web.Mvc.xml
+E:\Đồ án\SportNews\SportNews\bin\System.Web.Optimization.xml
+E:\Đồ án\SportNews\SportNews\bin\System.Web.Razor.xml
+E:\Đồ án\SportNews\SportNews\bin\System.Web.WebPages.xml
+E:\Đồ án\SportNews\SportNews\bin\System.Web.WebPages.Deployment.xml
+E:\Đồ án\SportNews\SportNews\bin\System.Web.WebPages.Razor.xml
+E:\Đồ án\SportNews\SportNews\bin\Newtonsoft.Json.xml
+E:\Đồ án\SportNews\SportNews\bin\Antlr3.Runtime.pdb
+E:\Đồ án\SportNews\SportNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Đồ án\SportNews\SportNews\obj\Debug\SportNews.csproj.AssemblyReference.cache
+E:\Đồ án\SportNews\SportNews\obj\Debug\SportNews.csproj.CoreCompileInputs.cache
+E:\Đồ án\SportNews\SportNews\obj\Debug\SportNews.csproj.CopyComplete
+E:\Đồ án\SportNews\SportNews\obj\Debug\SportNews.dll
+E:\Đồ án\SportNews\SportNews\obj\Debug\SportNews.pdb

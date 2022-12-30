@@ -1,0 +1,91 @@
+﻿@model SportNews.Models.Entities.Article
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+<script src="~/Content/ckeditor/ckeditor.js"></script>
+<h2 style="margin:20px">Chỉnh sửa</h2>
+
+@using (Html.BeginForm(Html.BeginForm("Edit", "Articles", FormMethod.Post, new { enctype = "multipart/form-data" })))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <div class="card">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.id)
+            @Html.HiddenFor(model => model.createdById)
+            <input type="hidden" name="images" value="@Model.images" />
+
+            <div class="form-group">
+                <p style="font-size:20px ; font-weight:400 ; margin-left: 20px">Tên chủ đề:</p>
+                <div class="col-md-10">
+                    @Html.DropDownList("id_category", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.id_category, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <p style="font-size:20px ; font-weight:400 ; margin-left: 20px">Tiêu đề:</p>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.title, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.title, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <p style="font-size:20px ; font-weight:400 ; margin-left: 20px">Nội dung:</p>
+                <div class="col-md-10">
+                    @Html.TextAreaFor(model => model.contents, new { @id = "ckeditor", @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.contents, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="ID_DM">Ảnh</label>
+                <div class="col-md-10">
+                    <input type="file" name="file" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <p style="font-size:20px ; font-weight:400 ; margin-left: 20px">Tác giả:</p>
+                <div class="col-md-10">
+                    @Html.DropDownList("createdById", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.createdById, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <p style="font-size:20px ; font-weight:400 ; margin-left: 20px">Nguồn:</p>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.cre, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.cre, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <p style="font-size:20px ; font-weight:400 ; margin-left: 20px">Tags:</p>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.tags, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.tags, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Lưu lại" class="btn btn-success" />
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    <a href="/Admin/Articles/Index" class="btn btn-primary" style="margin-left:10px">Quay lại</a>
+</div>
+
+<script>
+    CKEDITOR.replace("ckeditor");
+</script>

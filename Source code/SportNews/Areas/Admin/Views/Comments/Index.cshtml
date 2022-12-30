@@ -1,0 +1,49 @@
+﻿@model IEnumerable<SportNews.Models.Entities.Comment>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h2>Danh sách bình luận</h2>
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <tr>
+                <th>
+                    ID bài viết
+                </th>
+                <th>
+                    Nội dung bình luận
+                </th>
+                <th>
+                    Ngày bình luận
+                </th>
+                <th>
+                    Thao tác
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.news_id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.contents)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.createddate)
+                    </td>
+                    <td>
+                        <span class="badge bg-success"><a target="_blank" href="/Home/Detail/@item.news_id">Đến bài viết</a></span>
+                        <span class="badge bg-danger"><a target="_blank" href="/Admin/Comments/Delete/@item.id">Xóa bình luận</a></span>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

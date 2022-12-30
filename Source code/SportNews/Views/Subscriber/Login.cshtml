@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+<style>
+    .login-form {
+        width: 450px;
+        margin-left: 700px;
+        margin-top: 150px;
+        background: aliceblue;
+        border-radius: 20px;
+    }
+</style>
+<link rel="stylesheet" type="text/css" href="~/Content/css/login.css">
+<body style="background: #cbc4c4">
+    @using (Html.BeginForm("Login", "Subscriber", new { ReturnUrl = "" },
+            FormMethod.Post, new { @class = "login-form" }))
+    {
+        <div class="imgcontainer">
+            <h2 style="text-align: center;">Đăng nhập</h2>
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Tên đăng nhập</b></label>
+            <input type="text" name="username" required>
+
+            <label for="psw"><b>Mật khẩu</b></label>
+            <input type="password" name="password" required>
+
+            <button type="submit">Đăng nhập</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Ghi nhớ mật khẩu
+            </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1; border-radius: 25px">
+            <button type="button" class="cancelbtn">Hủy</button>
+            <span class="psw">Quên <a href="#">mật khẩu?</a></span>
+        </div>
+    }
+</body>
